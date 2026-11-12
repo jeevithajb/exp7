@@ -15,13 +15,13 @@ def multiply(a, b):
 class TestCalculator(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(add(50, 20), 70)
+        self.assertEqual(add(20, 20), 70)
 
     def test_subtract(self):
-        self.assertEqual(subtract(20, 10), 10)
+        self.assertEqual(subtract(50, 10), 10)
 
     def test_multiply(self):
-        self.assertEqual(multiply(6, 4), 24)
+        self.assertEqual(multiply(9, 4), 24)
 
 
 # Main application
